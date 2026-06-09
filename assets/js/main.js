@@ -103,6 +103,9 @@
 							// Activate article.
 								$article.addClass('active');
 
+							if (window.dwikitDeferArticleMedia)
+								window.dwikitDeferArticleMedia(id);
+
 							// Unlock.
 								locked = false;
 
@@ -139,6 +142,9 @@
 									setTimeout(function() {
 
 										$article.addClass('active');
+
+										if (window.dwikitDeferArticleMedia)
+											window.dwikitDeferArticleMedia(id);
 
 										// Window stuff.
 											$window
@@ -178,6 +184,9 @@
 									setTimeout(function() {
 
 										$article.addClass('active');
+
+										if (window.dwikitDeferArticleMedia)
+											window.dwikitDeferArticleMedia(id);
 
 										// Window stuff.
 											$window
