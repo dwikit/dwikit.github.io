@@ -1475,6 +1475,12 @@ input, select, textarea {
 					padding: 2.5rem 0;
 				}
 
+				#header .content p {
+					font-size: 0.72rem;
+					letter-spacing: 0.06rem;
+					line-height: 1.65;
+				}
+
 				#header nav ul {
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
